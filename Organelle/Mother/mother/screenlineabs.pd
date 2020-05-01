@@ -1,0 +1,17 @@
+#N canvas 1169 397 1067 664 10;
+#X obj 124 196 list append;
+#X obj 124 221 list trim;
+#X obj 154 44 list;
+#X obj 154 76 t b l b;
+#X msg 193 116 /nui/clearLine 0 \$1;
+#X msg 49 160 /ttui/textLine 0 16 \$1 0;
+#X obj 154 20 inlet;
+#X obj 124 242 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 7 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 3 1 0 1;
+#X connect 3 2 4 0;
+#X connect 5 0 0 0;
+#X connect 6 0 2 0;

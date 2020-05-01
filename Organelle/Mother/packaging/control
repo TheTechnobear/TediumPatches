@@ -1,0 +1,9 @@
+Package: TTMother
+Version: 0.0.1
+Architecture: armhf
+Maintainer: Mark Harris <mharris@technobear.com>
+Depends: sidekick (>= 0.2.0-5) 
+Section: sound
+Priority: optional
+Description: Organelle patches on TT via Sidekick.
+ 
